@@ -36,7 +36,7 @@ func main() {
 				var urlnum int
 				for urlnum=0;;urlnum++ {
 					//每次读取一行
-					surl, urerr := br.ReadString("\n")
+					surl, urerr := br.ReadString('\n')
 					if urerr == io.EOF {
 						break
 					} else{

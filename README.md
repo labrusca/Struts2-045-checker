@@ -20,7 +20,7 @@ go run S2-045-checker.go http://www.github.com
 ```
 
 ### 多个网站检测：
-请把带http[s]://的一组网站存入TXT文件中，在确保换行符为“\n”而不是"\r\n"有情况下运行：
+请把带http[s]://的一组网站存入TXT文件中，在确保换行符为“\n”而不是"\r\n"的情况下运行：
 ```
 go run S2-045-checker.go -f urls.txt
 ```
