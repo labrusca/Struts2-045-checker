@@ -12,7 +12,7 @@ go build S2-045-checker.go
 
 ### 单个网站检测：
 ```
-go run S2-045-checker.go url/-f [urls.txt]
+go run S2-045-checker.go http://website
 ```
 例如：测试 http://www.github.com，你可以这么做：
 ```
@@ -27,11 +27,11 @@ go run S2-045-checker.go -f urls.txt
 
 如果目标网站有漏洞，输出信息：
 ```
-[vul] http://somewebsite
+[vul] http://website
 ```
 如果没有：
 ```
-[] http://somewebsite
+[] http://website
 ```
 
 
