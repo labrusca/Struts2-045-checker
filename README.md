@@ -12,7 +12,7 @@ go build S2-045-checker.go
 
 ### 单个网站检测：
 ```
-go run S2-045-checker.go http://website
+go run S2-045-checker.go http://xxx.xxx.xxx
 ```
 例如：测试 http://www.github.com，你可以这么做：
 ```
@@ -27,12 +27,17 @@ go run S2-045-checker.go -f urls.txt
 
 如果目标网站有漏洞，输出信息：
 ```
-[vul] http://website
+[vul] http://xxx.xxx.xxx
 ```
 如果没有：
 ```
-[] http://website
+[] http://xxx.xxx.xxx
 ```
+
+
+### S2-045-checker的GUI版本
+
+windows下执行build_with_ui.bat编译生成exe文件,点击执行，输入网站并点击launch!
 
 
 # Lisence: GPL v3

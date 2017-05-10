@@ -1,0 +1,1 @@
+go build -ldflags="-H windowsgui" S2-045-checker_GUI.go
